@@ -1,0 +1,74 @@
+body {
+	
+	margin: 0;
+}
+h1 {
+	margin-top: 0;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+
+.one-container {
+	background-color: BBBBBB;
+    display: inline-block;
+    position: absolute;
+	left: 0px;
+    top: 0px;
+     height: 150;
+    width: 200;
+	padding: 20px;
+    
+	
+}
+.two-container {
+	background-color: 2155CD;
+display: inline-block;
+    position: absolute;   
+   height: 150;
+    width: 200;
+    padding: 20px;
+    right: 0px;
+	
+}
+a:hover {
+	color: red;
+}
+.three-container {
+	background-color: 5584AC;
+    height: 150;
+    width: 200;
+    position: absolute;
+    top: 190px;
+    left: 240px;
+	padding: 20px;
+}
+.four-container {
+	background-color: 92B4EC;
+ display: inline-block;
+    position: absolute;  
+  height: 150;
+    width: 200;
+   padding: 20px;
+    top: 380px;
+	left: 0px;
+	
+}
+.five-container {
+	    background-color: FEE2C5;
+     height: 150;
+    width: 200;
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    top: 380px;
+    right: 0px;
+}
+.mainest {
+	position: relative;
+	height: 450px;
+    
+    width: 720px;
+    margin: 0px auto 0px auto;
+}
