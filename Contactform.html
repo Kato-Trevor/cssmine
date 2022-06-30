@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    h1 {
+      text-align: center;
+    }</style>
+  <style>
+    #submission {
+      margin: 0 auto 0 auto;
+    }</style>
 <meta charset="utf-8"/>
   <link rel="stylesheet" href="styles2.css"/>
   <meta name="viewport" content="width=device-width initial-scale=1.0"/>
@@ -8,7 +16,7 @@
 </head>
 <body>
   <h1><u>Contact Form</u></h1>
-<form action="mailto:example@gmail.com"><h3><u>Contact Form</u></h3>
+<form action="mailto:example@gmail.com">
 <fieldset><input name="Fname" type="text" placeholder="First Name" required />
 <input name="Lname" type="text" placeholder="Last Name" required />
 <Input name="email" type="email" placeholder="email" required />
@@ -29,10 +37,8 @@
   <fieldset>
   <legend>What do you think about <strong>me</strong>?</legend><textarea rows="8" cols="40" placeholder="Anything that you might find beneficial"></textarea>
   </fieldset>
-<button type="Submit">Submit</button>
-  button {
-  text-align: center;
-  }
+<button id="submission" type="Submit">Submit</button>
+ 
  </form>
 </body>
 </html>
